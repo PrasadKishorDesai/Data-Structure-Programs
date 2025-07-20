@@ -1,2 +1,2 @@
-# Data-Structure-Programs
-Programs of Data Structure written by me in c++
+# Data-Structure-Programs (DSA)
+Programs of Data Structures (DSA) written by me in **C++** and **Java**
