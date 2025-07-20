@@ -75,6 +75,8 @@ public class Stack_using_Array_Program_1 {
         Stack s = new Stack();
         int choice, element, ans;
 
+        Scanner sc = new Scanner(System.in);
+
         do {
             System.out.println("Enter your choice:");
             System.out.println("0 -> exit");
@@ -86,7 +88,6 @@ public class Stack_using_Array_Program_1 {
             System.out.println("6 -> count()");
             System.out.println("7 -> display()");
 
-            Scanner sc = new Scanner(System.in);
             choice = sc.nextInt();
 
             switch (choice) {
@@ -140,6 +141,7 @@ public class Stack_using_Array_Program_1 {
             }
             System.out.println();
         } while (choice != 0);
+        sc.close();
 
         return;
     }
